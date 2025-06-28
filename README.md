@@ -150,9 +150,11 @@ Disconnected → some nodes are isolated
 Resources Links:
 
 a)First read this for an overview(its just  for overview, so try to understand as much as you can): https://www.w3schools.com/dsa/dsa_theory_graphs.php
+
 b)If you are not familiar with stack and queue refer to this links : 
 stack:https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm
  queue:https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm
+ 
 c)Now go through this pdf for understanding of graphs, no need to look at code part (just make sure to understand the concept thoroughly) :
 https://drive.google.com/file/d/1-XvPBVCM_BVrzcEvBX_3GMSHJJolBIFL/view?usp=sharing
 (Optional videos to watch for more clarity(highly recommended to watch though)
@@ -162,6 +164,7 @@ https://drive.google.com/file/d/1-XvPBVCM_BVrzcEvBX_3GMSHJJolBIFL/view?usp=shari
      These are just quick videos about bfs and dfs, do watch them for  better clarity.
          https://youtu.be/JM_Ni1roq7k?feature=shared - dfs
          https://youtu.be/cDS5ZTeANZM?feature=shared- bfs)
+         
 d)For in-depth understanding of bfs: refer to this link-https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm
    For in-depth understanding of dfs: refer to this link-
 https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm
