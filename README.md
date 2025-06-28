@@ -69,17 +69,17 @@ https://drive.google.com/drive/folders/1BL6Hwfy1pDXzpPEV9zeJXD_QIRXkoHLk?usp=sha
 
 **Week-3 : Advanced Problems + Binary Trees**
 
-1)Union of Intervals
+1) Union of Intervals
 --> Given overlapping intervals, calculate the total length covered without double-counting overlaps.
 --> Requires sorting + merge logic.
 
-2)Count Inversions
+2) Count Inversions
 
 --> Count how far an array is from being sorted.
 
 --> Can be solved efficiently using modified Merge Sort.
 
-3)Search in a Matrix
+3) Search in a Matrix
 
 --> Given a sorted 2D matrix, search for a number.
 
@@ -91,7 +91,7 @@ https://drive.google.com/drive/folders/1BL6Hwfy1pDXzpPEV9zeJXD_QIRXkoHLk?usp=sha
 
 --> Use a sweep line algorithm or segment tree for optimal solution.
 
-5)Minimum Pages Problem
+5) Minimum Pages Problem
 
 --> Divide books among students to minimize the maximum pages any student reads.
 
