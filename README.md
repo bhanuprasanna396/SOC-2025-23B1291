@@ -1,7 +1,8 @@
 # SOC-2025-23B1291
-SOC Project ID-43: Kickstart CP
+**SOC Project ID-43: Kickstart CP**
 
-Week 1 – Core Concepts Overview
+**Week 1 – Core Concepts Overview**
+
 1)Time Complexity & Efficiency
 Learn to analyze your code's speed using Big-O (e.g., O(n log n)), which is crucial for solving problems under time limits.
 
@@ -28,7 +29,8 @@ https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19
 Submission Link:
 https://drive.google.com/drive/folders/1RVF7hx9Wds8KCSMa-ai_EbKL_Yeo53h1?usp=sharing
 
-Week 2 - Sorting Overview
+**Week 2 - Sorting Overview**
+
 Bubble Sort
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 Time Complexity: O(n²)
@@ -65,7 +67,7 @@ https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19
 Submission Link:
 https://drive.google.com/drive/folders/1BL6Hwfy1pDXzpPEV9zeJXD_QIRXkoHLk?usp=sharing
 
-Week-3 : Advanced Problems + Binary Trees
+**Week-3 : Advanced Problems + Binary Trees**
 
 1)Union of Intervals
 --> Given overlapping intervals, calculate the total length covered without double-counting overlaps.
@@ -119,7 +121,7 @@ https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19
 Submission Link:
 https://drive.google.com/drive/folders/1t6BKVEonamAGR2tn4qqk8vZwGZrZI77I?usp=drive_link
 
-Week-4 : Graphs Overview
+**Week-4 : Graphs Overview**
 A graph is a collection of nodes (vertices) connected by edges. It is used to represent networks like roads, social connections, web links, etc.
 
 Types of Graphs
