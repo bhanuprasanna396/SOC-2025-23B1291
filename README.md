@@ -177,3 +177,128 @@ https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19
 Submission Link:
 https://drive.google.com/drive/folders/17vxWNE51zdWY97C21rKS_7M6jcNSItGX?usp=drive_link
 
+**Week-5 : Advanced Graphs Overview**
+
+1) Time Complexity & Efficiency
+--> Reinforce understanding of Big-O notation for analyzing performance.
+
+--> Focus on worst-case, best-case, and average-case complexities.
+
+--> Learn amortized analysis (e.g., for Union-Find or heaps).
+
+--> Recognize time-space tradeoffs in graph algorithms like Dijkstra’s and Bellman-Ford.
+
+2) Sorting & Searching
+--> Practice advanced sorting algorithms (Merge Sort, Heap Sort).
+
+--> Understand the role of sorting in MST algorithms (e.g., Kruskal’s needs sorted edges).
+
+--> Binary Search on arrays and custom conditions.
+
+--> Learn how sorting optimizes greedy and interval-based problems.
+
+3) Binary Search Mastery
+--> Apply binary search on answer space (e.g., minimum effort path, max probability path).
+
+--> Solve problems involving “smallest/largest value that satisfies condition.”
+
+--> Combine with graphs or DP for optimization.
+
+--> Practice pattern recognition: when to replace loops with binary search.
+
+4) Advanced Data Structures
+--> Tries: For prefix-based problems, word dictionaries.
+
+--> Heaps: Used in Dijkstra’s and Prim’s algorithms for priority queue behavior.
+
+--> Disjoint Set Union (DSU): Core for Kruskal’s MST and connected component problems.
+
+--> Priority Queues: Solve problems with greedy selection based on cost/probability.
+
+5) Problem-Solving Framework
+--> Start from brute-force → identify bottlenecks → optimize.
+
+--> Use patterns like:
+
+a) Graph traversal (BFS/DFS → Dijkstra/Prim)
+
+b) Greedy choices (Kruskal, activity selection)
+
+c) Binary search on result space.
+
+d) Break complex problems into subproblems (divide & conquer or recursion).
+
+e) Build intuition by identifying graph types (DAG, weighted, unweighted).
+
+Resources Links:
+https://cses.fi/book/book.pdf
+https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF
+https://drive.google.com/file/d/1ho6xPiOxzu2h8dieXAkaLz9G0pc7F0V2/view?usp=sharing
+
+Assignment Link:
+https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19cxA?e=GcF0fL
+
+Submission Link:
+https://drive.google.com/drive/folders/1RVF7hx9Wds8KCSMa-ai_EbKL_Yeo53h1?usp=sharing
+
+**Week-6 : Greedy Algorithms Overview**
+
+1) Greedy Algorithm Fundamentals
+--> A greedy algorithm chooses the best option at the current step, hoping it leads to the global optimum.
+
+Works when the problem satisfies:
+
+--> Greedy Choice Property (local optimal = part of global optimal).
+
+--> Optimal Substructure (optimal solution = combination of optimal subproblems).
+
+--> Greedy is faster and often simpler than DP but doesn't work for all problems.
+
+--> Key to success: Identify when greedy is safe to apply.
+
+2) Classic Greedy Problems
+--> Fractional Knapsack: Sort items by profit/weight ratio, take maximum possible value.
+
+--> Activity Selection: Sort by end time; select non-overlapping intervals.
+
+--> Huffman Encoding: Build tree using a priority queue of character frequencies.
+
+--> These build a foundation for recognizing greedy problem structures.
+
+3) Greedy Scheduling and Interval Problems
+--> Job Sequencing: Maximize profit by assigning jobs to latest available slots.
+
+--> Merge Overlapping Intervals: Sort by start, then merge if overlapping.
+
+--> Minimum Platforms: Sort arrivals/departures, track simultaneous trains.
+
+--> Maximum Trains at a Platform: Focus on maximizing platform usage with schedules.
+
+--> These problems teach interval scheduling and event handling.
+
+4) Optimization via Greedy Choices
+--> Smallest Subset ≥ K: Sort descending, pick until sum ≥ K.
+
+--> Shop in Candy Store: Sort by price, buy high-cost items, get lowest free.
+
+--> Swap and Maximize: Greedily choose swaps that increase sum the most.
+
+--> Min Cost to Make Size 1: Merge elements with minimum pair cost at each step.
+
+--> These problems reinforce how sorting and priority queues help in greedy strategies.
+
+5) Problem-Solving Framework
+Begin with brute-force → identify greedy condition → apply and verify correctness.
+
+Always test:
+
+Does the greedy choice guarantee an optimal solution?
+
+Can I prove greedy is better than DP for this case?
+
+Draw test cases, simulate steps, and justify every decision.
+
+Use sorting, heaps, or greedy slot allocation based on the problem’s structure.
+
+
+
