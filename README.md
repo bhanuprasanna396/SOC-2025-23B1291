@@ -239,7 +239,7 @@ Assignment Link:
 https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19cxA?e=GcF0fL
 
 Submission Link:
-https://drive.google.com/drive/folders/1RVF7hx9Wds8KCSMa-ai_EbKL_Yeo53h1?usp=sharing
+https://drive.google.com/drive/folders/1xscavqlbFmbwRZ96gAdsOy1ZG4jY96cN?usp=sharing
 
 **Week-6 : Greedy Algorithms Overview**
 
@@ -288,17 +288,115 @@ Works when the problem satisfies:
 --> These problems reinforce how sorting and priority queues help in greedy strategies.
 
 5) Problem-Solving Framework
-Begin with brute-force → identify greedy condition → apply and verify correctness.
+--> Begin with brute-force → identify greedy condition → apply and verify correctness.
 
 Always test:
 
-Does the greedy choice guarantee an optimal solution?
+--> Does the greedy choice guarantee an optimal solution?
 
-Can I prove greedy is better than DP for this case?
+--> Can I prove greedy is better than DP for this case?
 
-Draw test cases, simulate steps, and justify every decision.
+--> Draw test cases, simulate steps, and justify every decision.
 
-Use sorting, heaps, or greedy slot allocation based on the problem’s structure.
+--> Use sorting, heaps, or greedy slot allocation based on the problem’s structure.
+
+Resources Links:
+https://cses.fi/book/book.pdf
+https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF
+https://drive.google.com/file/d/1ho6xPiOxzu2h8dieXAkaLz9G0pc7F0V2/view?usp=sharing
+
+Assignment Link:
+https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19cxA?e=GcF0fL
+
+Submission Link:
+https://drive.google.com/drive/folders/1bkfFvXi67SQ_xOAkD34ZJZMEqbC8tPn9?usp=sharing
+
+**Week-7 : Core Concepts Overview**
+
+1. Understanding the Foundation
+--> Before DP, clarify the difference between Subarray vs Substring — many DP problems revolve around these.
+
+--> DP is used when problems have:
+
+--> Overlapping Subproblems
+
+--> Optimal Substructure
+
+--> Instead of solving the same subproblem repeatedly, store (memoize) results for reuse.
+
+Two main approaches:
+
+--> Top-Down (Memoization): Recursive + caching
+
+--> Bottom-Up (Tabulation): Iterative, builds solution from smallest subproblems
+
+2. Basic Dynamic Programming Problems
+--> Fibonacci Number: Classic intro to memoization/tabulation.
+
+--> Tribonacci Number: Variation of Fibonacci with 3-term recurrence.
+
+--> Climbing Stairs: Number of ways to reach the top, can be solved via recursion, DP, or space optimization.
+
+--> Frog Jump: Minimize cost of jumps – builds intuition on state transition.
+
+--> Minimum Sum Triangle: Bottom-up DP on triangle structure.
+
+--> House Robbery: Can’t rob adjacent houses – involves choosing max of non-adjacent sums.
+
+--> House Robbery II: Circular variant of House Robbery – split into two linear cases.
+
+--> Longest Increasing Subarray: Track length of increasing segments dynamically.
+
+3. 2D Dynamic Programming
+--> Longest Common Subsequence (LCS): Compare two strings for common subsequence using 2D DP table.
+
+--> Longest Increasing Subsequence (LIS):
+
+--> Try all methods: DP, patience sorting, binary search-based optimization.
+
+--> Edit Distance: Minimum operations to convert one string to another.
+
+--> Longest Common Increasing Subsequence: Combines logic from LCS and LIS.
+
+--> Longest Palindromic Substring: Expand around center or use DP to track palindromic lengths.
+
+--> Unique Paths: Grid-based DP with movement constraints (right/down).
+
+--> Decode Ways: Ways to decode string of digits to letters – classic 1D DP with conditions.
+
+--> Sequence Completion: Fill in or complete a sequence under certain constraints – builds transition logic skills.
+
+4. DP Thought Process & Framework
+Identify:
+
+--> What’s the state? (e.g., index, sum, remaining)
+
+--> What are the choices at each state?
+
+--> What is the transition from one state to another?
+
+Choose:
+
+--> Top-down when recursion is easier to express.
+
+--> Bottom-up when you want full control and speed.
+
+Optimize:
+
+--> Space using variables or 1D arrays when only previous values are needed.
+
+--> Practice formulating recurrence relations clearly before coding.
+
+Resources Links:
+https://cses.fi/book/book.pdf
+https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF
+https://drive.google.com/file/d/1ho6xPiOxzu2h8dieXAkaLz9G0pc7F0V2/view?usp=sharing
+
+Assignment Link:
+https://1drv.ms/w/c/3d3dfac7f44bdc27/EQZ8AZbd9vpMgybqvq0-hCsBIff6sSxoBrh52wUWR19cxA?e=GcF0fL
+
+Submission Link:
+https://drive.google.com/drive/folders/1JZSXgGO2VNCAAY0fyKuEibaRRx2yqlfZ?usp=sharing
 
 
 
